@@ -1,3 +1,4 @@
 import dotenv from 'dotenv'
 dotenv.config()
-require('./server')
+
+import server from './server'
