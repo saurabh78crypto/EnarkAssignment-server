@@ -1,11 +1,13 @@
 import express from 'express';
 import moment from "moment";
 import cors from "cors";
+import dotenv from 'dotenv'
 
 import  Router  from './router/index.js';
 
 import './db/conn.js'
 
+dotenv.config();
 const app = express();
 
 const { CORS_ORIGIN, CORS_METHODS } = process.env;
