@@ -35,4 +35,4 @@ app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 
 app.use('/', Router)
 
-export { app }
+export default { app }
