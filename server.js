@@ -1,7 +1,8 @@
 const express = require('express');
 import moment from "moment";
 import cors from "cors"
-import { Router } from './router';
+
+import  Router  from './router/index.js';
 
 require('./db/conn');
 
