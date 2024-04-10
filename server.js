@@ -1,6 +1,6 @@
-const express = require('express');
+import express from 'express';
 import moment from "moment";
-import cors from "cors"
+import cors from "cors";
 
 import  Router  from './router/index.js';
 
