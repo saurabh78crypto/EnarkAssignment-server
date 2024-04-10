@@ -8,4 +8,4 @@ const { BASE_URL } = process.env
 Router.use(`${BASE_URL}/auth`, auth)
 
 
-export default {Router}
+export default Router
