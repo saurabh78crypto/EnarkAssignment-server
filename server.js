@@ -4,7 +4,7 @@ import cors from "cors";
 
 import  Router  from './router/index.js';
 
-require('./db/conn.js');
+import './db/conn.js'
 
 const app = express();
 
