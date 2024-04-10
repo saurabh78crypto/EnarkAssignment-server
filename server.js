@@ -12,7 +12,7 @@ const { CORS_ORIGIN, CORS_METHODS } = process.env;
 const port = process.env.PORT || 5000;
 const corsOptions = { 
     origin: process.env.CORS_ORIGIN || 'http://localhost:3000', 
-    methods: (process.env.CORS_METHODS || ['GET', 'POST', 'PUT', 'DELETE']).split(','),
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowHeaders: ['Content-Type'] 
 };
 
