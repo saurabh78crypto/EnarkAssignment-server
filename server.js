@@ -9,7 +9,7 @@ import './db/conn.js'
 const app = express();
 
 const { CORS_ORIGIN, CORS_METHODS } = process.env;
-const PORT = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 const corsOptions = { 
     origin: 'http://localhost:3000', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
@@ -18,7 +18,7 @@ const corsOptions = {
 
 app.use(express.json());
 
-app.listen(PORT, () => {
+app.listen(port, () => {
     console.log(
         `Server is up and running on port ${PORT} on ${moment().format(
             "DD-MMM-YYYY-T-HH:mm:ss.S"
