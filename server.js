@@ -20,7 +20,7 @@ app.use(express.json());
 
 app.listen(port, () => {
     console.log(
-        `Server is up and running on port ${PORT} on ${moment().format(
+        `Server is up and running on port ${port} on ${moment().format(
             "DD-MMM-YYYY-T-HH:mm:ss.S"
         )}`
     );
