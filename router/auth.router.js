@@ -1,5 +1,5 @@
 import express from "express";
-import { addBook, deleteBook, getBook, updateBook } from "../controller/auth.controller";
+import { addBook, deleteBook, getBook, updateBook } from "../controller/auth.controller.js";
 
 const auth = express.Router()
 
